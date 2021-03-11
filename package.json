@@ -1,0 +1,15 @@
+{
+  "name": "burry-cli",
+  "version": "0.0.1",
+  "description": "download template cli",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "inori0w0",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "commander": "^7.1.0"
+  }
+}

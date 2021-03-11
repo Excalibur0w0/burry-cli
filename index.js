@@ -12,7 +12,7 @@ program.version('1.0.0', '-v, --version')
             console.error('Download Overtime! Please check network then try again! ^_^');
             process.exit();
         }, 20000)
-        process1.exec(`git clone git@github.com:Excalibur0w0/burry-template-${template}.git`, (error, stdout, stderr) => {
+        process1.exec(`git clone https://github.com/Excalibur0w0/burry-template-${template}`, (error, stdout, stderr) => {
             if (error !== null) {
                 console.log('exec error: ' + error);
                 return;

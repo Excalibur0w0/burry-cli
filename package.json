@@ -1,13 +1,13 @@
 {
   "name": "burry-cli",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "download template cli",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "burry-cli": "main.js"
+    "burry-cli": "index.js"
   },
   "author": "inori0w0",
   "license": "ISC",

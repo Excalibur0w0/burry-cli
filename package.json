@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "burry-cli": "main.js"
+  },
   "author": "inori0w0",
   "license": "ISC",
   "dependencies": {
